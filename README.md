@@ -7,8 +7,7 @@
   <br><br>
   
   ### ⚒ 기술 스택
-  ![Python](https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=FFFFFF) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=FFFFFF) ![sckit_learn](https://img.shields.io/badge/scikt_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=FFFFFF) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=Apache+Kafka&logoColor=FFFFFF) ![Flink](https://img.shields.io/badge/Apache_Flink-E6526F?style=flat-square&logo=Apache+Flink&logoColor=FFFFFF) 
-  <br><br>
+  ![Python](https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=FFFFFF) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=FFFFFF) ![sckit_learn](https://img.shields.io/badge/scikt_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=FFFFFF) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=Apache+Kafka&logoColor=FFFFFF) ![Flink](https://img.shields.io/badge/Apache_Flink-E6526F?style=flat-square&logo=Apache+Flink&logoColor=FFFFFF) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=FFFFFF) 
   <br><br>
   
 </div>
