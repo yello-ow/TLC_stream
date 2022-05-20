@@ -5,10 +5,10 @@ from sklearn.linear_model import LinearRegression
 import sklearn.metrics as metrics
 import pickle
 
-input_file = "./data/trips/*"
+input_file = "./data/trips/yellow_tripdata_2021-01.csv"
 
 df = pd.read_csv(input_file, header=0)
-df = df.loc[(df["total_amount"] < 20) & (df["trip_distance"] < 100)]
+df = df.loc[(df["total_amount"] > 0) & (df["total_amount"] < 5000) & (df["trip_distance"] > 0) & (df["trip_distance"] < 500) & (df["passenger_count"] < 4)]
 distance = df["trip_distance"]
 hours = df["tpep_pickup_datetime"].map(
   lambda x: datetime.strptime(x, "%Y-%m-%d %H:%M:%S").hour
@@ -29,7 +29,9 @@ lr.fit(train_x, train_y)
 prediction = lr.predict(test_x)
 
 mse = metrics.mean_squared_error(test_y, prediction)
+r2 = metrics.r2_score(test_y, prediction)
 print(mse)
+print(r2)
 print("PREDICTION")
 print(prediction[:5])
 print("LABEL")
